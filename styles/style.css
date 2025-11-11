@@ -27,8 +27,12 @@
     font-size: 45px;
     font-weight:600 ;
     color: #474747;
-
 }
+.dark-3{
+    font-size: 18px;
+    color: #757575;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -71,4 +75,50 @@ nav ul li{
 .image-size{
     height: 676px;
     width: 584;
+}
+
+/* About Me section */
+
+.about{
+    margin: 230px;
+    padding: 100px 100px;
+    background-color: #FFF8F3;
+ 
+}
+.about-list{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main h2{
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul li{
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+/* Do section */
+
+.Do{
+    margin: 230px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
